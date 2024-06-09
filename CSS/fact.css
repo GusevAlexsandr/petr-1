@@ -1,0 +1,48 @@
+.overlay {
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 3;
+   visibility: hidden;
+   background-color: rgba(0, 0, 0, 0.7);
+   opacity: 0;
+   position: fixed;
+   transition: opacity .5s;
+}
+
+.overlay:target {
+   visibility: visible;
+   opacity: 1;
+}
+
+.popup {
+   top: 0;
+   right: 0;
+   left: 0;
+   font-size: 30px;
+   z-index: 10;
+   display: block;
+   visibility: hidden;
+   margin: 0 auto;
+   width: 90%;
+   min-width: 320px;
+   max-width: 1000px;
+   text-align: justify;
+   font-family: sans-serif;
+   text-indent: 4%;
+   line-height: 1.5;
+   position: fixed;
+   padding: 15px;
+   border: 1px solid #383838;
+   border-radius: 20px;
+   background-color: #FFFFFF;
+   opacity: 0;
+   transition: all ease .5s;
+}
+
+.overlay:target+.popup {
+   top: 30%; 
+   visibility: visible;
+   opacity: 1; 
+}

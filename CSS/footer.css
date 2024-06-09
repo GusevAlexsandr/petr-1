@@ -1,0 +1,87 @@
+.footer{
+    margin-top: auto;   
+    background: #fff;
+    width: 100%;
+    min-height: 120px;
+    border-top: 1px solid rgba(0,0,0,.3);
+}
+
+
+.content-ss{ 
+    float: left;
+    text-align: center;
+    width: 20%;
+    font-size: 14pt; 
+    font-family: sans-serif;
+}
+
+.content-ss a{
+    text-decoration: none;
+}
+
+.contact-ss{ 
+    float: left;
+    width: 20%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact-ss a{
+    margin-right: 1%;
+}
+
+.name{
+    margin-top: 60px;
+    margin-left: 3%;
+    font-family: sans-serif;
+    font-size: 16pt; 
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+
+.logotip{
+    transition: .5s; 
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.logotip:hover {
+    transform: scale(1.2); 
+}
+
+form{
+    width: 25%;
+    float: left;
+    margin: 5px;
+    min-width: 500px;
+    max-width: 1000px;
+}
+
+.contact_form {
+    width:75%;
+    height: 30px;
+    font-size: 12pt; 
+    font-family: sans-serif;
+    border: none;
+    outline: none;
+    text-indent: 3%;
+    margin-top: 5px;
+    margin-left: 5px;
+    vertical-align: middle;
+    background-color: #f7f7f7;
+}
+
+.search {
+    border: 1px solid rgba(0,0,0,.3);
+    border-radius: 10px 10px;
+    margin-top: 30px;
+    background-color: #f7f7f7;
+}
+
+.button{
+    width:20%;
+    height: 30px;
+}
